@@ -31,7 +31,7 @@ resource "azurerm_windows_virtual_machine" "terra_vm" {
     name                = "terra-vm"
     resource_group_name = azurerm_resource_group.terra.name
     location            = azurerm_resource_group.terra.location
-    size                = "Standard_DS1_v2"
+    size                = "Standard_B1s"
     admin_username      = "azureuser"
     admin_password      = "P@ssw0rd1234"
     network_interface_ids = [
