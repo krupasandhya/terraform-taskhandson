@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "terra" {
   name     = "terra"
-  location = "East US"
+  location = "Central US"
 }
 resource "azurerm_virtual_network" "terra_vnet" {
     name                = "terra-vnet"
